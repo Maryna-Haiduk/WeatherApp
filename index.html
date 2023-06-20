@@ -33,11 +33,11 @@
           <input class="search-button" type="submit" value="Sarch" />
         </form>
       </div>
-      <div class="current-weather">
-        <h1 id="cityName">Vineland</h1>
-      </div>
+    
+      <h1 class="city" id="cityName">Vineland</h1>
+      
       <div class="temperature">
-        <p id="temperatureInt">12 °C</p>
+        <p class="temperatureInt" id="temperatureInt">12 °C</p>
         <!-- <span class="cf">
           <span class="celsius"><a href="" id="celsius"> °C </a></span>
           |
@@ -45,17 +45,21 @@
             <a href="" id="fahrenheit"> °F </a>
           </span>
         </span> -->
-        <div id="temperature-description">Clear Sky</div>
       </div>
 
-      <h2 class="dayTime" id="dayTime"></h2>
       <div class="main-image">
         <img
           src="https://cdn.iconscout.com/icon/free/png-512/free-sun-bright-rays-sunny-weather-33960.png?f=avif&w=512"
           width="100px"
         />
       </div>
+
+      <h2 class="dayTime" id="dayTime"></h2>
+      
       <div><p class="date"></p></div>
+
+      <div class="temperature-description" id="temperature-description">Clear Sky</div>
+
       <div class="weather-description">
         <p>
           <b>Humidity</b> 50% <br /><b>Wind Speed</b> Vrbl 7 mph <br /><b
@@ -67,6 +71,7 @@
           10.00 mi
         </p>
       </div>
+      <div class="open-sourse"><a href="https://github.com/Maryna-Haiduk/WeatherApp/tree/main">Open-source</a> code by Maryna Haiduk</div>
     </div>
     <script src="WeatherApp.js"></script>
   </body>
